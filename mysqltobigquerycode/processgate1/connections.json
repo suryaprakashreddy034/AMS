@@ -1,0 +1,8 @@
+{
+	"host_name": "localhost",
+	"user_name": "root",
+	"user_password":"Surya@8897",
+	"db_name": "sakila",
+	"q1" : "SELECT * FROM actor"
+
+}
