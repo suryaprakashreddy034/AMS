@@ -69,6 +69,8 @@ class FilterAccountsEmployee(beam.DoFn):
 
     def process(self, element):
         self.table_data=element
+
+    def convert_todataframe(self):
         self.dataframe=pd.DataFrame(self.table_data)
         ist = pytz.timezone('Asia/Calcutta')
 
@@ -79,6 +81,7 @@ class FilterAccountsEmployee(beam.DoFn):
 
         #"ID", "moviename", "actor", "releasedate"
 
+    def write_to_bq(self):
         schema = [bigquery.SchemaField("ID", "STRING", mode="NULLABLE"),
                   bigquery.SchemaField("moviename", "STRING", mode="NULLABLE"),
                   bigquery.SchemaField("actor", "STRING", mode="NULLABLE"),
