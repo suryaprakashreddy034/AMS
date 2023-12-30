@@ -1,9 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-12-30T16:31:26.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="xXLiMMINDJEZPqkc7EZr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-30T16:46:35.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="eAz7JkuTO8DFAgw8md_n" version="22.1.16" type="github">
   <diagram name="Page-1" id="We84wOQoFh9k-arjVCqL">
-    <mxGraphModel>
+    <mxGraphModel dx="1750" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qYAver-zWvEVxZbSXl4e-26" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="950" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D0CFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="950" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-1" target="qYAver-zWvEVxZbSXl4e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-1" value="Read incremental lots from &lt;font color=&quot;#ff0000&quot;&gt;f4111&lt;/font&gt; and &lt;font color=&quot;#ff0000&quot;&gt;f4108&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-2" target="qYAver-zWvEVxZbSXl4e-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-2" target="qYAver-zWvEVxZbSXl4e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-2" value="create dataframe with &lt;font color=&quot;#ff0000&quot;&gt;general process&lt;/font&gt; and &lt;font color=&quot;#ff0000&quot;&gt;reconcilation &lt;/font&gt;process &lt;font color=&quot;#ff0000&quot;&gt;(lake_df)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-3" target="qYAver-zWvEVxZbSXl4e-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="180" />
+              <mxPoint x="780" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-3" value="combine &lt;font color=&quot;#ff0000&quot;&gt;lake_df&lt;/font&gt; and &lt;font color=&quot;#ff0000&quot;&gt;rehashed &lt;/font&gt;df&lt;font color=&quot;#ff0000&quot;&gt; &lt;/font&gt;as&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;final_lake_df&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-4" target="qYAver-zWvEVxZbSXl4e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-4" value="validate that all incremental lots processed if any missing rehash the data and create dataframe with &lt;font color=&quot;#ff0000&quot;&gt;rehashed df&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="290" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-3" target="qYAver-zWvEVxZbSXl4e-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-5" target="qYAver-zWvEVxZbSXl4e-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-5" value="create &lt;font color=&quot;#ff0000&quot;&gt;temp table&lt;/font&gt; to store lots from &lt;font color=&quot;#ff0000&quot;&gt;final_lake_df&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-10" value="process data to &lt;font color=&quot;#ff0000&quot;&gt;edb layers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-15" target="qYAver-zWvEVxZbSXl4e-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-15" target="qYAver-zWvEVxZbSXl4e-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-15" value="create dataframe with &lt;font color=&quot;#ff0000&quot;&gt;general process&lt;/font&gt; and &lt;font color=&quot;#ff0000&quot;&gt;reconcilation &lt;/font&gt;process &lt;font color=&quot;#ff0000&quot;&gt;(lake_df)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-17" value="combine &lt;font color=&quot;#ff0000&quot;&gt;lake_df&lt;/font&gt; and &lt;font color=&quot;#ff0000&quot;&gt;rehashed &lt;/font&gt;df&lt;font color=&quot;#ff0000&quot;&gt; &lt;/font&gt;as&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;final_lake_df&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-19" target="qYAver-zWvEVxZbSXl4e-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-19" value="validate that all incremental lots processed if any missing rehash the data and create dataframe with &lt;font color=&quot;#ff0000&quot;&gt;rehashed df&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="760" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-17" target="qYAver-zWvEVxZbSXl4e-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-22" value="process data to &lt;font color=&quot;#ff0000&quot;&gt;edb layers&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="835" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-28" value="Track_Back Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBackgroundColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qYAver-zWvEVxZbSXl4e-29" target="qYAver-zWvEVxZbSXl4e-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-29" value="Read data from&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;temp table&lt;/font&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qYAver-zWvEVxZbSXl4e-31" value="Track_Forward Process" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;labelBackgroundColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="450" y="535" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
